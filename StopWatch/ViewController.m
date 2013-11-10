@@ -60,7 +60,7 @@
         theTimer = nil;
     } else {
         [self.startStopButton setTitle:@"Stop" forState:UIControlStateNormal];
-        theTimer = [NSTimer scheduledTimerWithTimeInterval:1/100
+        theTimer = [NSTimer scheduledTimerWithTimeInterval:1.0/100
                                                     target:self
                                                   selector:@selector(tick:)
                                                   userInfo:nil
